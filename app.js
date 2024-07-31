@@ -7,7 +7,11 @@ const clientPath = `${__dirname}`;
 app.use(express.static(clientPath));
 const server = http.createServer(app);
 const port = process.env.PORT || 3000;
- 
+
+// Setting path for public directory
+//for server.js
+
+
 /* const redo = () => {
 	io.emit("obstacleUpdate", {
 		width: 10,
