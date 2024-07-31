@@ -7,7 +7,7 @@ const clientPath = `${__dirname}`;
 app.use(express.static(clientPath));
 const server = http.createServer(app);
 const port = process.env.PORT || 3000;
-
+ 
 /* const redo = () => {
 	io.emit("obstacleUpdate", {
 		width: 10,
